@@ -34,7 +34,7 @@ async function main() {
   console.log("database connected");
 }
 
-
+console.log("Hello start")
 const mongostore = MongoStore.create({
   mongoUrl : process.env.CONNECTION_STRING,
   crypto :{
